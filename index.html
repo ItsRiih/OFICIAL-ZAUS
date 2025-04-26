@@ -4,23 +4,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ZAUS Arquitetura e Engenharia - Richard Brandão</title>
+  <title>ZAUS Arquitetura e Engenharia</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <script defer src="script.js"></script>
 </head>
 <body>
 <header>
-  <div class="container">
-    <h1><a href="#home">ZAUS Arquitetura</a></h1>
+  <div class="container header-branding">
+    <h1 class="logo-glow">ZAUS ARQUITETURA</h1>
     <nav>
       <button class="menu-toggle" aria-label="Abrir menu">☰</button>
       <ul class="nav-list">
         <li><a href="#home">Início</a></li>
-        <li><a href="#sobre">Sobre</a></li>
         <li><a href="#servicos">Serviços</a></li>
-        <li><a href="#portfolio">Portfólio</a></li>
-        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#fornecedores">Fornecedores</a></li>
+        <li><a href="#sobre">Sobre</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
@@ -28,73 +27,84 @@
 </header>
 
 <main>
-<section id="home" class="section">
-  <div class="container">
-    <h2>Construindo sonhos com identidade</h2>
-    <p>Arquitetura ética, técnica e feita para transformar realidades.</p>
-    <img src="https://via.placeholder.com/1200x500?text=ZAUS+Arquitetura" alt="Imagem de capa da ZAUS Arquitetura">
+<section id="home" class="section banner-section">
+  <video autoplay muted loop class="background-video">
+    <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+    Seu navegador não suporta vídeos HTML5.
+  </video>
+  <div class="banner-content">
+    <h2>Especialista em construções de alta performance</h2>
+    <p>Desenvolvimento, regularização e planejamento urbano</p>
     <a href="#contato" class="btn">Solicite um Orçamento</a>
-  </div>
-</section>
-
-<section id="sobre" class="section">
-  <div class="container">
-    <h2>Sobre Richard Brandão</h2>
-    <p>Arquiteto e urbanista formado pela FASIPE em Sinop-MT, com especialização em Smart Cities pela ETH Zürich.
-    Fundador da ZAUS Arquitetura, onde atua com projetos que buscam qualidade técnica, sustentabilidade e inovação urbana.</p>
   </div>
 </section>
 
 <section id="servicos" class="section">
   <div class="container">
-    <h2>Serviços</h2>
-    <ul>
-      <li>Projetos Arquitetônicos Residenciais e Comerciais</li>
-      <li>Urbanismo e Planejamento</li>
-      <li>Consultorias Técnicas e Laudos</li>
-      <li>Estudos de Impacto de Vizinhança (EIV)</li>
-      <li>Design de Interiores</li>
-    </ul>
-  </div>
-</section>
-
-<section id="portfolio" class="section">
-  <div class="container">
-    <h2>Portfólio</h2>
-    <div class="gallery">
-      <img src="https://via.placeholder.com/600x400?text=Projeto+Residencial" alt="Projeto Residencial">
-      <img src="https://via.placeholder.com/600x400?text=Projeto+Comercial" alt="Projeto Comercial">
-      <img src="https://via.placeholder.com/600x400?text=Projeto+Urbano" alt="Projeto Urbano">
+    <h2>Áreas de Atuação</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Projetos Arquitetônicos</h3>
+        <p>Residenciais, comerciais e industriais com estilo, técnica e propósito.</p>
+      </div>
+      <div class="card">
+        <h3>Laudos e Perícias</h3>
+        <p>Memoriais descritivos, inspeções técnicas, imóveis urbanos e rurais.</p>
+      </div>
+      <div class="card">
+        <h3>Interiores e Obras</h3>
+        <p>Design de interiores, gestão de obras, orçamentos e acompanhamento.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="depoimentos" class="section">
+<section id="fornecedores" class="section dark-section">
   <div class="container">
-    <h2>Depoimentos</h2>
-    <blockquote>"Profissionais incríveis, muito comprometimento e qualidade em cada detalhe!" - Cliente A</blockquote>
-    <blockquote>"ZAUS trouxe inovação e identidade ao nosso projeto! Recomendo." - Cliente B</blockquote>
+    <h2>Rede de Fornecedores</h2>
+    <div class="cards grid-3">
+      <div class="card"><img src="https://via.placeholder.com/300x200?text=Gesseiro"><p>Gesseiro</p></div>
+      <div class="card"><img src="https://via.placeholder.com/300x200?text=Eletricista"><p>Eletricista</p></div>
+      <div class="card"><img src="https://via.placeholder.com/300x200?text=Jardineiro"><p>Jardineiro</p></div>
+      <div class="card"><img src="https://via.placeholder.com/300x200?text=Pedreiro"><p>Pedreiro</p></div>
+      <div class="card"><img src="https://via.placeholder.com/300x200?text=Metalurgica"><p>Metalúrgica</p></div>
+      <div class="card"><img src="https://via.placeholder.com/300x200?text=Piscineiro"><p>Piscineiro</p></div>
+    </div>
   </div>
 </section>
 
-<section id="contato" class="section">
+<section id="sobre" class="section">
+  <div class="container">
+    <h2>Missão, Visão e Valores</h2>
+    <div class="mvv">
+      <div><h3>Missão</h3><p>Contribuir com projetos inteligentes, acessíveis e sustentáveis para o futuro das cidades.</p></div>
+      <div><h3>Visão</h3><p>Ser referência em arquitetura e urbanismo no Brasil com inovação, propósito e ética.</p></div>
+      <div><h3>Valores</h3><p>Excelência, criatividade, transparência, compromisso social e respeito técnico.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="section contato">
   <div class="container">
     <h2>Contato</h2>
-    <p>Fale conosco e transforme sua ideia em realidade!</p>
-    <a href="mailto:arqzaus@gmail.com" class="btn">Enviar E-mail</a>
+    <p>Agende uma conversa:</p>
+    <a href="mailto:arqzaus@gmail.com" class="btn">Enviar e-mail</a>
     <p>WhatsApp: (66) 99649-3324</p>
+    <p>Endereço: Av. Guarantãs, 310 – Jd. Maringá – Sinop-MT</p>
+    <iframe src="https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUlfbW5mTU1aV3RlfGRlZmF1bHR8MDk2ZTIxMmFjMmVmNTc3NDVkYTc1YjZhMTM5ODFkYTg" width="100%" height="350"></iframe>
   </div>
 </section>
 </main>
 
 <footer>
   <div class="container">
+    <p>CNPJ: 44.798.624/0001-71</p>
     <p>&copy; 2025 ZAUS Arquitetura | Desenvolvido por Richard Brandão</p>
-    <p>
-      <a href="https://www.instagram.com/arqzaus/" target="_blank">Instagram</a> |
-      <a href="https://www.facebook.com/ARQZAUS/" target="_blank">Facebook</a> |
-      <a href="https://www.linkedin.com/in/richard-brand%C3%A3o-ab0678101/" target="_blank">LinkedIn</a>
-    </p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/arqzaus/" target="_blank">📷</a>
+      <a href="https://www.facebook.com/ARQZAUS/" target="_blank">📘</a>
+      <a href="https://www.linkedin.com/in/richard-brand%C3%A3o-ab0678101/" target="_blank">💼</a>
+    </div>
   </div>
 </footer>
 </body>
