@@ -128,3 +128,19 @@ footer .social-icons a {
   font-size: 24px;
   text-decoration: none;
 }
+
+/* Painel Interno */
+#painel-container {
+  text-align: left;
+}
+
+.painel-section {
+  margin-bottom: 2rem;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+  gap: 8px;
+}
